@@ -1,6 +1,7 @@
 
 /* Guess Game: Random Integer-Driven JavaScript While Loop
  * Format: while (boolean expression) {} -- indent block code 
+ * Guess validator game
  * By Allen Huynh
  */
 
@@ -18,7 +19,6 @@ while (guess != answer) {
   if (guess < answer) alert ("too low");
 
   else if (guess > answer) alert ("too high");
- 
 }
 else alert("Invalid Guess");
 }
